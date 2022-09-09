@@ -26,4 +26,12 @@ $(function(){
           ]
     });
 
+    $('.menu__close-icon').on('click', function(){
+        $('.overflou').css('display', 'none');
+    });
+
+    $('.nav__menu').on('click', function(){
+        $('.overflou').css('display', 'block');
+    }); 
+
 });
