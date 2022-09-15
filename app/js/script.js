@@ -1,9 +1,3 @@
-// $(document).ready(function(){
-//     $('.slider').slick({
-//       setting-name: setting-value
-//     });
-// });
-
 $(function(){
 
     $('.slider').slick({
@@ -33,5 +27,11 @@ $(function(){
     $('.nav__menu').on('click', function(){
         $('.overflou').css('display', 'block');
     }); 
+
+    $('.overflou').on('click', function(event){
+        if (event.target.classList[0] == 'overflou') {
+            $('.overflou').css('display', 'none');
+        }
+    });
 
 });

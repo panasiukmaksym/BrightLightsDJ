@@ -29,6 +29,9 @@ button {
     font-size: 48px;
     line-height: 72px;
     color: #FFFFFF;
+    &__hidden {
+        display: none;
+    }
 }
 
 .overflou {
@@ -75,7 +78,8 @@ button {
         font-size: 100px;
         line-height: 150px;
         text-shadow: #fff 1px 0 0px, #fff 0 1px 0px, #fff -1px 0 0px, #fff 0 -1px 0px;
-        color: rgba(0, 0, 0, 0.7);
+        color: rgba(0, 0, 0, 0.5);
+        mix-blend-mode:hard-light;
         margin-bottom: 50px;
         margin-top: 10px;
         opacity: 1;
